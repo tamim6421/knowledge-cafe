@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/9NrnLyV/pexels-maria-orlova-4947406.jpg",
+      "title": "Fictional Adventure",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/fMMkfkx/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2023-09-11",
+      "reading_time": 30,
+      "hashtags": ["fiction", "adventure", "story"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/9NrnLyV/pexels-maria-orlova-4947406.jpg",
+      "title": "Mystery Unraveled",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/fMMkfkx/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2023-09-10",
+      "reading_time":45,
+      "hashtags": ["mystery", "suspense", "detective"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/9NrnLyV/pexels-maria-orlova-4947406.jpg",
+      "title": "Sci-Fi Chronicles",
+      "author": "Sam Green",
+      "author_img": "https://i.ibb.co/fMMkfkx/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2023-09-09",
+      "reading_time": 60,
+      "hashtags": ["sci-fi", "future", "technology"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/9NrnLyV/pexels-maria-orlova-4947406.jpg",
+      "title": "Romantic Escapade",
+      "author": "Emily Davis",
+      "author_img": "https://i.ibb.co/fMMkfkx/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2023-09-08",
+      "reading_time": 40,
+      "hashtags": ["romance", "love", "relationships"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/9NrnLyV/pexels-maria-orlova-4947406.jpg",
+      "title": "Historical Odyssey",
+      "author": "Michael Brown",
+      "author_img": "https://i.ibb.co/fMMkfkx/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2023-09-07",
+      "reading_time": 90,
+      "hashtags": ["history", "past", "culture"]
+    }
+  ]
+  

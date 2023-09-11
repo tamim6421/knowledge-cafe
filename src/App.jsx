@@ -1,11 +1,22 @@
 
 
 import './App.css'
+import Blogs from './components/Blogs/Blogs'
+import Bookmarks from './components/Booksmarks/Bookmarks'
+import Header from './components/Header/Header'
 
 function App() {
   return (
     <>
-      <h1 className='text-4xl text-center my-20 bg-red-400'>Knowledge Cafe</h1>
+    <div >
+    <Header></Header>
+    <div className='md:flex'>
+    <Blogs></Blogs>
+    <Bookmarks></Bookmarks>
+    </div>
+    
+    </div>
+      
     </>
   )
 }
