@@ -3,10 +3,10 @@ import { FaBookmark } from 'react-icons/fa';
 import PropTypes from 'prop-types'; 
 const Blog = ({blog, addToBookmarks, handleReadingTime}) => {
     // console.log(blog)
-    const {title, cover, author, author_img, posted_date, reading_time, hashtags} = blog
+    const {title, id, cover, author, author_img, posted_date, reading_time, hashtags} = blog
     return (
         <div className='mb-20 space-y-2'>
-            <img className='w-full' src={cover} alt={`cover picture of the title ${title}`} />
+            <img className='w-full h-72' src={cover} alt={`cover picture of the title ${title}`} />
             <div className='flex justify-between mt-3'>
                 <div className='flex gap-5 mt-1 my-3 items-center'>
                     <img className='w-14 rounded-full' src={author_img} alt="" />
@@ -28,7 +28,7 @@ const Blog = ({blog, addToBookmarks, handleReadingTime}) => {
             }
            </p>
            <button
-           onClick={() =>handleReadingTime(reading_time)}
+           onClick={() =>handleReadingTime(reading_time, id)}
             className='text-purple-800 underline'>mark as read</button>
         </div>
     );
